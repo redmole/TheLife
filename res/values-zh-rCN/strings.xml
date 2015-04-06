@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">生活鼹鼠</string>
+    <string name="app_version">1.0.0</string>
+    <string name="app_url">http://btc.29bar.com/config/freeBitcoinVer.php</string>
+    <string name="life_init_url">http://btc.29bar.com/config/freeBitcoinSites.html</string>
+    <string name="db_name">theLife.db</string>
+    <string name="copy_right_text">by 29bar.com</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="download_label">下载地址</string>
+    <string name="download">下载</string>
+    <string name="stop">暂停</string>
+    <string name="resume">继续</string>
+    <string name="retry">重试</string>
+    <string name="remove">取消</string>
+    <string name="test">测试</string>
+
+    <string name="upgrade_warning_title">升级提醒</string>
+    <string name="upgrade_warning">现在有新版本了，下载体验新功能</string>
+    <string name="download_select">下载</string>
+    <string name="ignore_select">忽略</string>
+</resources>

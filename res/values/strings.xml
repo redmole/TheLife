@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheLife</string>
+    <string name="app_version">1.0.0</string>
+    <string name="app_url">http://btc.29bar.com/config/freeBitcoinVer.php</string>
+    <string name="life_init_url">http://btc.29bar.com/config/freeBitcoinSites.html</string>
+    <string name="db_name">theLife.db</string>
+    <string name="copy_right_text">by 29bar.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="upgrade_warning_title">Upgrade warning</string>
+    <string name="upgrade_warning">Download the new version of FreeBicCoin</string>
+    <string name="download_select">download</string>
+    <string name="ignore_select">ignore</string>
+
+</resources>
