@@ -42,8 +42,8 @@ public class WelcomeActivity extends Activity implements OnPageChangeListener,
 		new CreateShut(this);
 		// 设置引导图片
 		//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  仅需在这设置图片 指示器和page自动添加
-		images = new int[] { R.drawable.welcome_01, R.drawable.welcome_02,
-				R.drawable.welcome_03 };
+		images = new int[] { R.drawable.wel_one, R.drawable.wel_two,
+				R.drawable.wel_three };
 		initView();
 	}
 
@@ -51,7 +51,7 @@ public class WelcomeActivity extends Activity implements OnPageChangeListener,
 	private void initView() {
 		// 实例化视图控件
 		viewPager = (ViewPager) findViewById(R.id.viewpage);
-		startButton = (Button) findViewById(R.id.start_Button);
+		startButton = (Button) findViewById(R.id.btn_start);
 		startButton.setOnClickListener(this);
 		indicatorLayout = (LinearLayout) findViewById(R.id.indicator);
 		views = new ArrayList<View>();
@@ -76,7 +76,7 @@ public class WelcomeActivity extends Activity implements OnPageChangeListener,
 	//按钮的点击事件
 	@Override
 	public void onClick(View v) {
-		if (v.getId() == R.id.start_Button) {
+		if (v.getId() == R.id.btn_start) {
 			SharedPreferences shared = new SharedConfig(this).GetConfig();
 			Editor editor = shared.edit();
 			editor.putBoolean("First", false);

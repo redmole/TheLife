@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:background="@android:color/white"
+              android:background="@android:color/black"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
@@ -23,7 +23,7 @@
             <Button
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    android:background="@drawable/titlebar_menu_selector"
+                    android:background="@drawable/menu_left"
                     android:id="@+id/title_bar_left_menu"
                     android:layout_gravity="left|center_vertical"
                     android:layout_marginLeft="10dp"/>
